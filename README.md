@@ -22,7 +22,13 @@
 
 ## The article
 
-- **Portuguese (pt-BR):** [O Brasil virou destino de data center e não mede o que eles gastam](https://ulissesflores.com/energia)
+**Portuguese (pt-BR):** *O Brasil virou destino de data center e não mede o que eles gastam*, to
+be published at [ulissesflores.com/energia](https://ulissesflores.com/energia).
+
+> [!NOTE]
+> That link is not live yet. This repository went up first on purpose: the article's closing
+> paragraph points readers here, so the URL had to exist before the text could cite it. The link
+> starts resolving when the article is published.
 
 This repository is the companion to that article. Every figure the article
 calculates itself lives here as running code with a test locking the published
