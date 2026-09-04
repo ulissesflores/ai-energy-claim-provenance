@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "ai-energy-claim-provenance: recomputation and provenance for the self-calculated figures in 'O Brasil virou destino de data center e não mede o que eles gastam'"
+abstract: >-
+  Companion repository for an article that traced each widely circulated figure
+  about the energy use of artificial intelligence back to its primary source.
+  It holds the five sets of numbers the article calculates itself - the
+  122-language energy divide measured by Deng et al., the series of five PJM
+  capacity auctions, the variation of the US residential electricity price, the
+  sum of Microsoft's per-location datacenter electricity against its regional
+  total, and the count of NVIDIA submissions to the power category of MLPerf
+  Inference: Datacenter. Every published number exists here as a test
+  assertion; a single SHA-256 chain seals code, frozen evidence and derived
+  results; and a second track re-derives every frozen figure by downloading the
+  primary documents from their publishers.
+type: software
+version: "0.1.0"
+date-released: "2026-09-04"
+license: Apache-2.0
+repository-code: "https://github.com/ulissesflores/ai-energy-claim-provenance"
+url: "https://ulissesflores.com/energia"
+keywords:
+  - data center energy
+  - artificial intelligence
+  - reproducibility
+  - provenance
+  - MLPerf
+  - PJM
+  - electricity
+authors:
+  - family-names: Flores
+    given-names: Carlos Ulisses
+    orcid: "https://orcid.org/0000-0002-6034-7765"
+references:
+  - type: article
+    title: "The Language-Energy Divide"
+    authors:
+      - name: "Deng et al."
+    year: 2026
+    notes: "arXiv:2606.21869v1, preprint"
+    url: "https://arxiv.org/abs/2606.21869"
+  - type: report
+    title: "2025 United States Data Center Energy Usage Report"
+    authors:
+      - name: "Lawrence Berkeley National Laboratory"
+    year: 2026
+    doi: "10.71468/P1RP4F"
+  - type: data
+    title: "MLPerf Inference results (v5.0, v5.1, v6.0)"
+    authors:
+      - name: "MLCommons"
+    year: 2026
+    url: "https://mlcommons.org/benchmarks/inference-datacenter/"
+  - type: report
+    title: "2026 Environmental Data Fact Sheet"
+    authors:
+      - name: "Microsoft"
+    year: 2026
+    url: "https://aka.ms/SustainabilityFactsheet2026"
+  - type: data
+    title: "Electricity retail sales, residential sector, United States, monthly"
+    authors:
+      - name: "U.S. Energy Information Administration"
+    year: 2026
+    url: "https://www.eia.gov/opendata/"

@@ -1,0 +1,188 @@
+{
+  "source": "Microsoft, 2026 Environmental Data Fact Sheet (FY25, ended 2025-06-30)",
+  "url": "https://aka.ms/SustainabilityFactsheet2026",
+  "retrieved": "2026-09-02",
+  "method": "Table 15 (FY25 Datacenter water and electricity use by location) transcribed row by row; Table 13 (Electricity consumption by region) for the regional and company totals.",
+  "caveat": "Table 15 covers only Microsoft-owned datacenters under management and operational control, and excludes locations that collectively represent less than 1 percent of the total.",
+  "table_15_locations": [
+    {
+      "region": "Asia Pacific",
+      "location": "Auckland",
+      "country": "New Zealand",
+      "electricity_mwh": 19465
+    },
+    {
+      "region": "Asia Pacific",
+      "location": "Busan",
+      "country": "South Korea",
+      "electricity_mwh": 196701
+    },
+    {
+      "region": "Asia Pacific",
+      "location": "Jakarta",
+      "country": "Indonesia",
+      "electricity_mwh": 22172
+    },
+    {
+      "region": "Asia Pacific",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "electricity_mwh": 19971
+    },
+    {
+      "region": "Asia Pacific",
+      "location": "Melbourne",
+      "country": "Australia",
+      "electricity_mwh": 12821
+    },
+    {
+      "region": "Asia Pacific",
+      "location": "Singapore",
+      "country": "Singapore",
+      "electricity_mwh": 338845
+    },
+    {
+      "region": "Asia Pacific",
+      "location": "Sydney",
+      "country": "Australia",
+      "electricity_mwh": 7704
+    },
+    {
+      "region": "Asia Pacific",
+      "location": "Taipei",
+      "country": "Taiwan",
+      "electricity_mwh": 81671
+    },
+    {
+      "region": "Europe",
+      "location": "Copenhagen",
+      "country": "Denmark",
+      "electricity_mwh": 29964
+    },
+    {
+      "region": "Europe",
+      "location": "Dublin",
+      "country": "Ireland",
+      "electricity_mwh": 1308581
+    },
+    {
+      "region": "Europe",
+      "location": "Gävle – Sandviken",
+      "country": "Sweden",
+      "electricity_mwh": 704549
+    },
+    {
+      "region": "Europe",
+      "location": "Hollands Kroon",
+      "country": "Netherlands",
+      "electricity_mwh": 1291170
+    },
+    {
+      "region": "Europe",
+      "location": "Madrid",
+      "country": "Spain",
+      "electricity_mwh": 22588
+    },
+    {
+      "region": "Europe",
+      "location": "Malmo",
+      "country": "Sweden",
+      "electricity_mwh": 41681
+    },
+    {
+      "region": "Europe",
+      "location": "Milan",
+      "country": "Italy",
+      "electricity_mwh": 46989
+    },
+    {
+      "region": "Europe",
+      "location": "Vienna",
+      "country": "Austria",
+      "electricity_mwh": 13849
+    },
+    {
+      "region": "Europe",
+      "location": "Warsaw",
+      "country": "Poland",
+      "electricity_mwh": 82613
+    },
+    {
+      "region": "Americas",
+      "location": "Ashburn (VA)",
+      "country": "United States of America",
+      "electricity_mwh": 828925
+    },
+    {
+      "region": "Americas",
+      "location": "Atlanta (GA)",
+      "country": "United States of America",
+      "electricity_mwh": 11718
+    },
+    {
+      "region": "Americas",
+      "location": "Boydton (VA)",
+      "country": "United States of America",
+      "electricity_mwh": 3113847
+    },
+    {
+      "region": "Americas",
+      "location": "Cheyenne (WY)",
+      "country": "United States of America",
+      "electricity_mwh": 1091460
+    },
+    {
+      "region": "Americas",
+      "location": "Chicago (IL)",
+      "country": "United States of America",
+      "electricity_mwh": 369328
+    },
+    {
+      "region": "Americas",
+      "location": "Des Moines (IA)",
+      "country": "United States of America",
+      "electricity_mwh": 2152335
+    },
+    {
+      "region": "Americas",
+      "location": "East Wenatchee (WA)",
+      "country": "United States of America",
+      "electricity_mwh": 299727
+    },
+    {
+      "region": "Americas",
+      "location": "Manassas (VA)",
+      "country": "United States of America",
+      "electricity_mwh": 39968
+    },
+    {
+      "region": "Americas",
+      "location": "Phoenix (AZ)",
+      "country": "United States of America",
+      "electricity_mwh": 954206
+    },
+    {
+      "region": "Americas",
+      "location": "Queretaro",
+      "country": "Mexico",
+      "electricity_mwh": 6362
+    },
+    {
+      "region": "Americas",
+      "location": "Quincy (WA)",
+      "country": "United States of America",
+      "electricity_mwh": 1381569
+    },
+    {
+      "region": "Americas",
+      "location": "San Antonio (TX)",
+      "country": "United States of America",
+      "electricity_mwh": 1440710
+    }
+  ],
+  "table_13": {
+    "total_electricity_mwh_fy25": 37026353,
+    "latin_america_mwh_fy25": 661556,
+    "latin_america_mwh_fy24": 592903
+  }
+}

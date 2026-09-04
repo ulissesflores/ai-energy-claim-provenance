@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: verify (python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install runtime
+        run: pip install -r requirements.txt
+      - name: Verify the committed provenance seal
+        run: python make_provenance.py --verify
+      - name: Full offline replication
+        run: python run_all.py
+      - name: The seal must survive the replication
+        run: git diff --exit-code -- output/
+
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install linters
+        run: pip install ruff interrogate
+      - name: Format check
+        run: ruff format --check .
+      - name: Lint
+        run: ruff check .
+      - name: Docstring coverage must be total
+        run: interrogate -c pyproject.toml -f 100 code tests run_all.py make_provenance.py fetch_sources.py conftest.py

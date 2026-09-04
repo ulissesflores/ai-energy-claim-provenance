@@ -1,0 +1,74 @@
+{
+  "description": "Directory listing of closed/NVIDIA/results in each MLPerf Inference results repository. The `_MaxQ` suffix is how NVIDIA names a submission carrying measured power.",
+  "api_url_template": "https://api.github.com/repos/mlcommons/inference_results_{round}/contents/closed/NVIDIA/results",
+  "retrieved": "2026-09-04",
+  "power_dir_evidence": {
+    "path": "closed/NVIDIA/results/H200-SXM-141GBx8_TRT_MaxQ/llama2-70b-99/Offline/performance",
+    "round": "v4.1",
+    "entries": [
+      "power",
+      "ranging",
+      "run_1"
+    ],
+    "note": "`power/` and `ranging/` are the directories MLPerf Power requires for a measured-power submission."
+  },
+  "systems": {
+    "v4.0": [
+      "DGX-H100_H100-SXM-80GBx1_TRT",
+      "DGX-H100_H100-SXM-80GBx2_TRT",
+      "DGX-H100_H100-SXM-80GBx8_TRT",
+      "DGX-H100_H100-SXM-80GBx8_TRT_MaxQ",
+      "GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT",
+      "GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT",
+      "H100-NVL-94GBx8_TRT",
+      "H200-SXM-141GB-CTSx1_TRT",
+      "H200-SXM-141GB-CTSx8_TRT",
+      "H200-SXM-141GBx1_TRT",
+      "H200-SXM-141GBx8_TRT",
+      "L40Sx8_TRT",
+      "Orin_TRT",
+      "submission_checker_log.txt"
+    ],
+    "v4.1": [
+      "B200-SXM-180GBx1_TRT",
+      "DGX-H100_H100-SXM-80GBx8_TRT",
+      "GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT",
+      "H200-SXM-141GB-CTSx1_TRT",
+      "H200-SXM-141GB-CTSx8_TRT",
+      "H200-SXM-141GBx1_TRT",
+      "H200-SXM-141GBx8_TRT",
+      "H200-SXM-141GBx8_TRT_MaxQ",
+      "H200-SXM-141GBx8_TRT_Triton",
+      "Orin_TRT",
+      "submission_checker_log.txt"
+    ],
+    "v5.0": [
+      "B200-SXM-180GBx1_TRT",
+      "B200-SXM-180GBx8_TRT",
+      "DGX-H100_H100-SXM-80GBx8_TRT",
+      "GB200-NVL72_GB200-186GB_aarch64x72_TRT_Triton",
+      "GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT",
+      "H200-SXM-141GBx8_TRT",
+      "H200-SXM-141GBx8_TRT_Triton",
+      "submission_checker_log.txt"
+    ],
+    "v5.1": [
+      "B200-SXM-180GBx8_TRT",
+      "GB200-NVL72_GB200-186GB_aarch64x4_TRT",
+      "GB200-NVL72_GB200-186GB_aarch64x72_TRT",
+      "GB300-NVL72_GB300-288GB_aarch64x72_TRT",
+      "submission_checker_log.txt"
+    ],
+    "v6.0": [
+      "B200-SXM-180GBx8_TRT",
+      "B300-SXM-270GBx8_TRT",
+      "GB200-NVL72_GB200-186GB_aarch64x4_TRT",
+      "GB200-NVL72_GB200-186GB_aarch64x72_TRT",
+      "GB300-NVL72_GB300-288GB_aarch64x288_TRT",
+      "GB300-NVL72_GB300-288GB_aarch64x4_TRT",
+      "GB300-NVL72_GB300-288GB_aarch64x72_TRT",
+      "out.csv",
+      "submission_checker_log.txt"
+    ]
+  }
+}

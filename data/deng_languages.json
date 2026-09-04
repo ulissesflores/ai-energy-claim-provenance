@@ -1,0 +1,63 @@
+{
+  "source": "Deng et al., The Language-Energy Divide, arXiv:2606.21869v1 (preprint, 2026-06-20)",
+  "url": "https://arxiv.org/abs/2606.21869",
+  "retrieved": "2026-09-02",
+  "method": "Table 5 (full results for all 122 languages, Qwen3-8B on Belebele) parsed from the paper PDF. Only the rows cited by the article are frozen here; ranks are derived over all 122 rows.",
+  "license_note": "The authors' companion CSV is CC BY-NC-SA 4.0 and is NOT redistributed here, nor is the paper text. Only the individual figures cited by the article are recorded, plus ranks derived from them. Run `python fetch_sources.py` to re-derive the full 122-language ranking from the published PDF.",
+  "n_languages": 122,
+  "measurement_caveat": "Open models (Qwen3-8B, Gemma3, Llama-3.1) on an academic L40S GPU, measured by hardware counter (NVML/Zeus), not by a wall-plug meter. Absolute joules are NOT comparable to production per-prompt figures; only the ratios between languages travel.",
+  "table_5_cited_rows": [
+    {
+      "language": "English",
+      "code": "eng_Latn",
+      "resource": "High",
+      "j_per_token": 0.1,
+      "output_tokens": 167621,
+      "total_energy_j": 16762.1,
+      "accuracy_pct": 94.6,
+      "rank_by_total_energy": 1
+    },
+    {
+      "language": "Portuguese",
+      "code": "por_Latn",
+      "resource": "High",
+      "j_per_token": 0.11,
+      "output_tokens": 223499,
+      "total_energy_j": 24584.9,
+      "accuracy_pct": 90.2,
+      "rank_by_total_energy": 2
+    },
+    {
+      "language": "Shan",
+      "code": "shn_Mymr",
+      "resource": "Low",
+      "j_per_token": 0.7,
+      "output_tokens": 4200313,
+      "total_energy_j": 2940219.1,
+      "accuracy_pct": 10.6,
+      "rank_by_total_energy": 120
+    },
+    {
+      "language": "Tibetan",
+      "code": "bod_Tibt",
+      "resource": "Low",
+      "j_per_token": 0.85,
+      "output_tokens": 3543429,
+      "total_energy_j": 3011914.7,
+      "accuracy_pct": 21.9,
+      "rank_by_total_energy": 121
+    },
+    {
+      "language": "Southern Pashto",
+      "code": "pbt_Arab",
+      "resource": "Low",
+      "j_per_token": 0.84,
+      "output_tokens": 3747646,
+      "total_energy_j": 3148022.6,
+      "accuracy_pct": 40.4,
+      "rank_by_total_energy": 122
+    }
+  ],
+  "table_1_english_pashto_ratio": 179.0,
+  "table_1_note": "Table 1 of the same paper prints 179x for Southern Pashto against English (3,146,541 J). Table 5 gives 187.8x (3,148,022.6 J against 16,762.1 J). The article uses 179x, the value the authors sign, and records the difference."
+}

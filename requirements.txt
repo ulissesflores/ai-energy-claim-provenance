@@ -1,0 +1,3 @@
+# Runtime: the derivation itself is standard library only.
+# pytest is what turns every published number into an assertion.
+pytest>=8.0

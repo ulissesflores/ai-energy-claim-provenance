@@ -1,0 +1,53 @@
+{
+  "source": "PJM Interconnection, Base Residual Auction reports (Reliability Pricing Model)",
+  "retrieved": "2026-09-02",
+  "method": "RTO clearing price (Capacity Performance, $/MW-day UCAP) read from each official BRA report. The 2024/2025 price is stated inside the 2025/2026 report; the 2026/2027 price is restated in the 2027/2028 report.",
+  "unit": "USD per MW-day (UCAP), RTO clearing price",
+  "auctions": [
+    {
+      "delivery_year": "2024/2025",
+      "price_usd_mw_day": 28.92,
+      "cleared_at_cap": false,
+      "report": "2025/2026 Base Residual Auction Report",
+      "report_date": "2024-07-30",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2025-2026/2025-2026-base-residual-auction-report.pdf",
+      "anchor": "Capacity Performance 2024/25 $28.92"
+    },
+    {
+      "delivery_year": "2025/2026",
+      "price_usd_mw_day": 269.92,
+      "cleared_at_cap": false,
+      "report": "2025/2026 Base Residual Auction Report",
+      "report_date": "2024-07-30",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2025-2026/2025-2026-base-residual-auction-report.pdf",
+      "anchor": "Capacity 2025/26 $269.92"
+    },
+    {
+      "delivery_year": "2026/2027",
+      "price_usd_mw_day": 329.17,
+      "cleared_at_cap": true,
+      "report": "2026/2027 Base Residual Auction Report",
+      "report_date": "2025-07-22",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2026-2027/2026-2027-bra-report.pdf",
+      "anchor": "For the 2026/2027 BRA, all prices cleared at the cap ($329.17)."
+    },
+    {
+      "delivery_year": "2027/2028",
+      "price_usd_mw_day": 333.44,
+      "cleared_at_cap": true,
+      "report": "2027/2028 Base Residual Auction Report",
+      "report_date": "2025-12-17",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2027-2028/2027-2028-bra-report.pdf",
+      "anchor": "For the 2027/2028 BRA, all prices cleared at the cap ($333.44)."
+    },
+    {
+      "delivery_year": "2028/2029",
+      "price_usd_mw_day": 325.0,
+      "cleared_at_cap": true,
+      "report": "2028/2029 Base Residual Auction Report",
+      "report_date": "2026-07-14",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+      "anchor": "For 2028/2029, all four LDAs cleared at $325.00."
+    }
+  ]
+}

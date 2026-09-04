@@ -1,0 +1,121 @@
+{
+  "deng_languages": {
+    "accuracy_pct": {
+      "bod_Tibt": 21.9,
+      "eng_Latn": 94.6,
+      "pbt_Arab": 40.4,
+      "por_Latn": 90.2,
+      "shn_Mymr": 10.6
+    },
+    "energy_ratio_vs_english": {
+      "bod_Tibt": 179.685999964205,
+      "eng_Latn": 1.0,
+      "pbt_Arab": 187.8059789644496,
+      "por_Latn": 1.4666957004193988,
+      "shn_Mymr": 175.40875546620055
+    },
+    "english_total_energy_j": 16762.1,
+    "n_languages": 122,
+    "rank_by_total_energy": {
+      "bod_Tibt": 121,
+      "eng_Latn": 1,
+      "pbt_Arab": 122,
+      "por_Latn": 2,
+      "shn_Mymr": 120
+    },
+    "table_1_english_pashto_ratio": 179.0,
+    "table_5_english_pashto_ratio": 187.8059789644496
+  },
+  "eia_prices": {
+    "latest_period": "2026-06",
+    "mean_2020_cents_kwh": 13.157499999999999,
+    "mean_2025_cents_kwh": 17.331666666666667,
+    "n_months": 306,
+    "pct_change_2020_to_2025": 31.724618405218834,
+    "pct_change_since_chatgpt_launch": 17.942122186495173,
+    "price_2022_11_cents_kwh": 15.55,
+    "price_latest_cents_kwh": 18.34
+  },
+  "microsoft_locations": {
+    "company_total_mwh": 37026353,
+    "largest_located_mwh": 3113847,
+    "latin_america_located_mwh": 6362,
+    "latin_america_total_mwh": 661556,
+    "latin_america_unlocated_mwh": 655194,
+    "latin_america_unlocated_pct": 99.03832782107636,
+    "latin_america_yoy_pct": 11.579128457774711,
+    "located_share_of_company_pct": 43.02743238039134,
+    "located_sum_mwh": 15931489,
+    "n_locations": 29
+  },
+  "mlperf_power": {
+    "lenovo_v51_power_accelerators": [
+      "NVIDIA B200-SXM-180GB"
+    ],
+    "lenovo_v51_power_rows": 12,
+    "nvidia_datacenter_rows_total": 170,
+    "nvidia_datacenter_rows_with_power_total": 0,
+    "nvidia_maxq_systems": {
+      "v4.0": [
+        "DGX-H100_H100-SXM-80GBx8_TRT_MaxQ"
+      ],
+      "v4.1": [
+        "H200-SXM-141GBx8_TRT_MaxQ"
+      ],
+      "v5.0": [],
+      "v5.1": [],
+      "v6.0": []
+    },
+    "rounds": {
+      "v5.0": {
+        "datacenter_rows": 905,
+        "datacenter_rows_with_power": 19,
+        "nvidia_datacenter_rows": 75,
+        "nvidia_datacenter_rows_with_power": 0,
+        "nvidia_rows_outside_datacenter": 0,
+        "nvidia_rows_outside_datacenter_with_power": 0,
+        "power_submitters": [
+          "Fujitsu"
+        ]
+      },
+      "v5.1": {
+        "datacenter_rows": 586,
+        "datacenter_rows_with_power": 12,
+        "nvidia_datacenter_rows": 34,
+        "nvidia_datacenter_rows_with_power": 0,
+        "nvidia_rows_outside_datacenter": 1,
+        "nvidia_rows_outside_datacenter_with_power": 0,
+        "power_submitters": [
+          "Lenovo"
+        ]
+      },
+      "v6.0": {
+        "datacenter_rows": 465,
+        "datacenter_rows_with_power": 0,
+        "nvidia_datacenter_rows": 61,
+        "nvidia_datacenter_rows_with_power": 0,
+        "nvidia_rows_outside_datacenter": 2,
+        "nvidia_rows_outside_datacenter_with_power": 0,
+        "power_submitters": []
+      }
+    }
+  },
+  "pjm_auctions": {
+    "auctions_cleared_at_cap": 3,
+    "delivery_years": [
+      "2024/2025",
+      "2025/2026",
+      "2026/2027",
+      "2027/2028",
+      "2028/2029"
+    ],
+    "pct_increase_2024_25_to_2025_26": 833.3333333333333,
+    "prices_usd_mw_day": [
+      28.92,
+      269.92,
+      329.17,
+      333.44,
+      325.0
+    ]
+  }
+}

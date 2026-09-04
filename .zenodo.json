@@ -1,0 +1,30 @@
+{
+  "title": "ai-energy-claim-provenance: recomputation and provenance for the self-calculated figures in 'O Brasil virou destino de data center e não mede o que eles gastam'",
+  "version": "0.1.0",
+  "upload_type": "software",
+  "access_right": "closed",
+  "notes": "No DOI without the operator's explicit authorization. This deposit stays closed until the article is published and the release flow is deliberately triggered.",
+  "license": "Apache-2.0",
+  "creators": [
+    {
+      "name": "Flores, Carlos Ulisses",
+      "orcid": "0000-0002-6034-7765"
+    }
+  ],
+  "keywords": [
+    "data center energy",
+    "artificial intelligence",
+    "reproducibility",
+    "provenance",
+    "MLPerf",
+    "PJM",
+    "electricity"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://ulissesflores.com/energia",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "ai-energy-claim-provenance",
+  "description": "Companion repository for 'O Brasil virou destino de data center e não mede o que eles gastam': the five sets of numbers the article calculates itself, recomputed from their primary sources, locked by tests and sealed by a SHA-256 chain.",
+  "version": "0.1.0",
+  "dateCreated": "2026-09-04",
+  "datePublished": "2026-09-04",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "codeRepository": "https://github.com/ulissesflores/ai-energy-claim-provenance",
+  "relatedLink": "https://ulissesflores.com/energia",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.11+",
+  "developmentStatus": "active",
+  "keywords": [
+    "data center energy",
+    "artificial intelligence",
+    "reproducibility",
+    "provenance",
+    "MLPerf",
+    "PJM",
+    "electricity"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6034-7765",
+      "familyName": "Flores",
+      "givenName": "Carlos Ulisses"
+    }
+  ]
+}

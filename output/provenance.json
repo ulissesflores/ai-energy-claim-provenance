@@ -1,0 +1,142 @@
+{
+  "chain_hash": "a17644ff6ab4645f91fac952cfd606ce28574cbbf44bc311994c34949c3bdf25",
+  "algorithm": "sha256",
+  "n_files": 26,
+  "links": [
+    {
+      "file": "code/deng.py",
+      "sha256": "b76f7b27576c59c1b784f66c2a77899cfe095b8834d2c746251960f8f8eaf6fc",
+      "chain": "a8ec1ce0890cafd58810e0d42d1ceb81f57144b9680e7de297b248dbd20cf49b"
+    },
+    {
+      "file": "code/eia.py",
+      "sha256": "6e7f295a888053bc40a29820d1eb15ea5b80968b094fa8d69451848a8bdedfae",
+      "chain": "dd7cb9ef6f2aea2f0259e32a14aca21662a626c45abe837aa7073c3dd4540f5f"
+    },
+    {
+      "file": "code/loaders.py",
+      "sha256": "21431e5caadbf2592d6fd2dd5393e24268e113888ea81bcb7e5487a8f0717642",
+      "chain": "835b704ca2a91c648ddd93fc4f3662a0201c03f9b99d5ac4726f35747d749386"
+    },
+    {
+      "file": "code/microsoft.py",
+      "sha256": "2998259a4552ea519edd8fb786297d1fed6b852c61668cb796e5f87f4c6544a3",
+      "chain": "714b024bf24ba20562fa06c78c7aef889e94b8dd49ec67c0ac0636a21661f261"
+    },
+    {
+      "file": "code/mlperf.py",
+      "sha256": "de8832491dbf2b9364a48cb5fceff24ab4397d06d0bd6da4a69d34b2d16714e5",
+      "chain": "22daf03306e3e2265feadf88c76909465500257edbed6a884cf1df37f5b1b187"
+    },
+    {
+      "file": "code/parsers.py",
+      "sha256": "7b5ac230b39533f8364c068b6174e277ad1b6e1fcbce45872ba84b80468e6318",
+      "chain": "ed73e9c963394d3b2519309c499b9418999d8e3acd60baef4fe562692cdc52ad"
+    },
+    {
+      "file": "code/pjm.py",
+      "sha256": "3d7b3d526cf71dfc7e0ef23305bf36434b3d2cd76e331ff33880931f2dcd10bc",
+      "chain": "79fb4678b0cfb377d29b574102d5c883500e9cb6e64da5041507779b9e6e79bc"
+    },
+    {
+      "file": "code/results.py",
+      "sha256": "0a107539dbc4c7a1ab911efdd55cbd5c6aeb92c5c03c8d78de6e906e3e4c2035",
+      "chain": "59a7f331c72894a184df89c37903a2b79a26b153e44d626cd1cadd5cc54fb066"
+    },
+    {
+      "file": "data/SOURCES.json",
+      "sha256": "43340f54a17f82555dff44f706cbb53834e33a95a1366c17b15e7478e9637087",
+      "chain": "3572be5dad3d571219cc033b941193750c603cf6725806b6ed2106353ec8c9bc"
+    },
+    {
+      "file": "data/deng_languages.json",
+      "sha256": "b38a43090a3a7333736c9a392bf048953ddaac2793f8ccb97042c4d8240346ff",
+      "chain": "4d1bd37048c154f1e1d2cbefb86d40f1614a9f9c39a4944a84c33e71d9f0ea1c"
+    },
+    {
+      "file": "data/eia_retail_price_residential_us.json",
+      "sha256": "c7be56ab0f526b00bc160f6bdaf6f7213cf81c923c5e98463d4c53af652b21c1",
+      "chain": "61917aa89df6b30c3e8026a8e2805bdce708e4fdcdbdbebd778fbfdf68712727"
+    },
+    {
+      "file": "data/microsoft_fy25.json",
+      "sha256": "f17640f6f4991bd18fa81bbe027bd17b1d6cba495f713cd6fc15384e35bb1f51",
+      "chain": "b1c1cc12b6e2645aeda340b762b60e5c1ee1e616d3fd82a143875bdf9c6d3a2d"
+    },
+    {
+      "file": "data/mlperf_nvidia_systems.json",
+      "sha256": "3ee3d89a198d34356caf5ed7324498b68ef7edf7fb4782862a04b72f98ccccc6",
+      "chain": "74afea53b5793c71b6076b331a4c60c75e89454fc7ea560fe5013b3f83c53566"
+    },
+    {
+      "file": "data/mlperf_submissions.json",
+      "sha256": "775dfb75328d894fd2663adfbe30b7f6345f1e3245aacb8daba06dcf6c84d9a6",
+      "chain": "9d85baf929277cb86438a2d8749542f1feb90f1200bf1ccf62c924d39fe3ee85"
+    },
+    {
+      "file": "data/pjm_auctions.json",
+      "sha256": "293d348914b648b58eac6c64331cc16856fdff144e1d485e89f64675acf41ac0",
+      "chain": "bc6762aee57ca584e21a2afe5ec7745e1680dbf6d58f662a4519c70b5ff54b31"
+    },
+    {
+      "file": "fetch_sources.py",
+      "sha256": "a1d4c3b89d0375b47e7325b6fd4c3763a7740b9874cccc28028667d65c018d69",
+      "chain": "29fef7cf3cda619fc34126a53fffa1b2eac1135165a7d2e90c4336874b09c495"
+    },
+    {
+      "file": "make_provenance.py",
+      "sha256": "9a73665e4af6e71c822a530574b3d751d7d7ef36aee88d89fd5cf8ff36a1d1c5",
+      "chain": "47b2104fed63205638c385b9d45a126c8fb1111b039842fbb42639f26fb54339"
+    },
+    {
+      "file": "output/results.json",
+      "sha256": "81e91fa47f8126e1d13544f4a7fe2ceb86dcd437422eb23a075a9a2d4f356657",
+      "chain": "7ef3d1c3a59d04fc5eb582fca00374efff6a27a4b9bcf340a2616bc3104992e0"
+    },
+    {
+      "file": "run_all.py",
+      "sha256": "e6f86e086d40d7d28c1bd42dae9428f6528b93b9d97c48d8c624623e34a2f900",
+      "chain": "64f42449384f5124bb7531ecc5f90795a0741171e0560295ba24658f8ddde268"
+    },
+    {
+      "file": "tests/test_article_numbers.py",
+      "sha256": "79c8b4f36b308bdf55a105dd3f367f69c0d3ec718df89dbfa60ff191a24d68bf",
+      "chain": "6251e3354d4d4febfb58d639150ef2586afc0526fee7b7d93dc3ef761fc83926"
+    },
+    {
+      "file": "tests/test_deng.py",
+      "sha256": "e498014078e4cd959ac0c23c5af0638ca373c72a0233e04d284dc36609f78cb4",
+      "chain": "3cdf3687d9d40fc5a94b67e8eb2a66897bc5cfac6f54228224181ed735e8ccf7"
+    },
+    {
+      "file": "tests/test_determinism.py",
+      "sha256": "979b103a57c1735835e306e9720882f7ec6809df69c913dda94d7413cffe83a9",
+      "chain": "e31716e2f5e9d06c9ec413f9db960aac61537657b857a79a27fcf6b361881dea"
+    },
+    {
+      "file": "tests/test_eia.py",
+      "sha256": "449110682ddb3b276faca431d0e684f4eea9b22b2eeb2882d24af429845ebaad",
+      "chain": "4a3cb0bb9b1a121951b805c1b88c931b26a98154b0e4b4b6fa97f45f90fe6318"
+    },
+    {
+      "file": "tests/test_microsoft.py",
+      "sha256": "6780cb6cf9b87670dc7953c69b9dff24d16dddfe3e03739cd017cc27a67f7e9f",
+      "chain": "37ff0f651e65a389540ddadde1c00c53cb8b020d03d98994f605094dc2f6c4ee"
+    },
+    {
+      "file": "tests/test_mlperf.py",
+      "sha256": "77710fd3796e6fc75356b3c84d7017727b23c7ab2c80b122f5303bae12e3da77",
+      "chain": "2aee6894688bec8a666480b5527f83d5abe0d19a7c1e9b07ee9aa10ffa561e2c"
+    },
+    {
+      "file": "tests/test_pjm.py",
+      "sha256": "010294bd3fb2713d04cec0527ee68dbbd20f56b80a26db9e6a351bbfd9c508b3",
+      "chain": "a17644ff6ab4645f91fac952cfd606ce28574cbbf44bc311994c34949c3bdf25"
+    }
+  ],
+  "informational_not_hashed": [
+    "requirements.lock",
+    "python version and platform",
+    "everything under .github/, docs/ and the Markdown at the root"
+  ]
+}

@@ -1,0 +1,6 @@
+# Verbatim freeze of the environment that produced output/provenance.json.
+# Python 3.14.7 on macOS (Darwin, arm64). Only the packages the run touches.
+iniconfig==2.3.0
+packaging==26.2
+pluggy==1.6.0
+pytest==9.0.3

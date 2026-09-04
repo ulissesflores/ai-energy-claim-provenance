@@ -1,0 +1,24 @@
+ai-energy-claim-provenance
+Copyright 2026 Carlos Ulisses Flores
+
+This product includes derived data from the MLPerf Inference results
+repositories published by MLCommons (https://github.com/mlcommons), licensed
+under the Apache License, Version 2.0. The file data/mlperf_submissions.json is
+a filtered projection of the `summary_results.json` ledgers of rounds v5.0, v5.1
+and v6.0; data/mlperf_nvidia_systems.json records directory names from the same
+repositories. MLPerf and MLCommons are trademarks of MLCommons Association.
+
+This product includes data published by the U.S. Energy Information
+Administration (data/eia_retail_price_residential_us.json), a work of the United
+States government in the public domain.
+
+No part of the following sources is redistributed here. Only the individual
+figures cited by the article, and values derived from them, are recorded:
+
+  - Deng et al., "The Language-Energy Divide", arXiv:2606.21869v1. The authors'
+    companion dataset is licensed CC BY-NC-SA 4.0 and is deliberately absent.
+  - Microsoft, 2026 Environmental Data Fact Sheet.
+  - PJM Interconnection, Base Residual Auction reports.
+
+Run `python fetch_sources.py` to download each primary source from its publisher
+and re-derive the frozen evidence from it.

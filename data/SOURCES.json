@@ -1,0 +1,136 @@
+{
+  "note": "Registry of every primary source behind the five conjuntos. `sha256` is the digest of the file as retrieved on `retrieved`; it is evidence of what was read, not a promise that the publisher will keep serving identical bytes. `fetch_sources.py` downloads each entry into `sources/` (gitignored), reports digest drift, and re-derives the frozen evidence in `data/`.",
+  "sources": [
+    {
+      "id": "mlperf-v5.0",
+      "conjunto": "mlperf_power",
+      "title": "MLPerf Inference v5.0 results ledger (summary_results.json)",
+      "publisher": "MLCommons",
+      "url": "https://raw.githubusercontent.com/mlcommons/inference_results_v5.0/main/summary_results.json",
+      "license": "Apache-2.0",
+      "redistributed": "derived subset only",
+      "sha256": "5a9edf18b4272a85eaac8e15a96680b1562dee73d2fdae95efdfcd29ca63e570",
+      "retrieved": "2026-09-04"
+    },
+    {
+      "id": "mlperf-v5.1",
+      "conjunto": "mlperf_power",
+      "title": "MLPerf Inference v5.1 results ledger (summary_results.json)",
+      "publisher": "MLCommons",
+      "url": "https://raw.githubusercontent.com/mlcommons/inference_results_v5.1/main/summary_results.json",
+      "license": "Apache-2.0",
+      "redistributed": "derived subset only",
+      "sha256": "68c19b46cf5a87f535beae81154d61c3d981fe850ae3d09af530c769b6e0cc68",
+      "retrieved": "2026-09-04"
+    },
+    {
+      "id": "mlperf-v6.0",
+      "conjunto": "mlperf_power",
+      "title": "MLPerf Inference v6.0 results ledger (summary_results.json)",
+      "publisher": "MLCommons",
+      "url": "https://raw.githubusercontent.com/mlcommons/inference_results_v6.0/main/summary_results.json",
+      "license": "Apache-2.0",
+      "redistributed": "derived subset only",
+      "sha256": "52fa813a27834e8de38eca9fd381688df1cf9cd95020d2bd9e951f6cc16384ae",
+      "retrieved": "2026-09-04"
+    },
+    {
+      "id": "eia-residential-price",
+      "conjunto": "eia_prices",
+      "title": "EIA API v2, electricity/retail-sales, residential, US total, monthly",
+      "publisher": "U.S. Energy Information Administration",
+      "url": "https://api.eia.gov/v2/electricity/retail-sales/data/?frequency=monthly&data[0]=price&facets[sectorid][]=RES&facets[stateid][]=US&sort[0][column]=period&sort[0][direction]=desc&length=5000&api_key=DEMO_KEY",
+      "license": "U.S. government work, public domain",
+      "redistributed": "verbatim, as data/eia_retail_price_residential_us.json",
+      "sha256": "c7be56ab0f526b00bc160f6bdaf6f7213cf81c923c5e98463d4c53af652b21c1",
+      "retrieved": "2026-09-02",
+      "drift_expected": true,
+      "drift_note": "The API appends a month at a time; a later fetch legitimately differs. Refetching must reproduce every month already frozen."
+    },
+    {
+      "id": "microsoft-fact-sheet",
+      "conjunto": "microsoft_locations",
+      "title": "Microsoft 2026 Environmental Data Fact Sheet (FY25)",
+      "publisher": "Microsoft",
+      "url": "https://aka.ms/SustainabilityFactsheet2026",
+      "license": "All rights reserved",
+      "redistributed": "no - only the figures cited by the article",
+      "sha256": "0fd180837df00b3427c3eae484a492224b8f18c381e82a2aed98b04553a197f6",
+      "retrieved": "2026-09-02",
+      "needs": "pdftotext -layout"
+    },
+    {
+      "id": "deng-language-energy-divide",
+      "conjunto": "deng_languages",
+      "title": "Deng et al., The Language-Energy Divide, arXiv:2606.21869v1",
+      "publisher": "arXiv (preprint)",
+      "url": "https://arxiv.org/pdf/2606.21869v1",
+      "license": "paper: arXiv licence; companion CSV: CC BY-NC-SA 4.0",
+      "redistributed": "no - neither the CSV nor the paper text; only the cited rows and ranks derived from them",
+      "sha256": "90171e47a4da47b3f55da1e3ca0483fc8e4fd1473e1db36c44a12528f439c582",
+      "retrieved": "2026-09-02",
+      "needs": "pdftotext -layout"
+    },
+    {
+      "id": "pjm-bra-2025-2026",
+      "conjunto": "pjm_auctions",
+      "title": "PJM 2025/2026 Base Residual Auction Report",
+      "publisher": "PJM Interconnection",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2025-2026/2025-2026-base-residual-auction-report.pdf",
+      "license": "All rights reserved",
+      "redistributed": "no - only the clearing prices",
+      "sha256": "6d47fb09d2052b102279ecf0e8748a4186a93e37d11bdf5b1bbf02d0db1b8350",
+      "retrieved": "2026-09-02",
+      "needs": "pdftotext -layout"
+    },
+    {
+      "id": "pjm-bra-2026-2027",
+      "conjunto": "pjm_auctions",
+      "title": "PJM 2026/2027 Base Residual Auction Report",
+      "publisher": "PJM Interconnection",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2026-2027/2026-2027-bra-report.pdf",
+      "license": "All rights reserved",
+      "redistributed": "no - only the clearing prices",
+      "sha256": "15effa7b903d026468cdea0b7eb2654eeb1f70d02a436c92289bff062fd257be",
+      "retrieved": "2026-09-02",
+      "needs": "pdftotext -layout"
+    },
+    {
+      "id": "pjm-bra-2027-2028",
+      "conjunto": "pjm_auctions",
+      "title": "PJM 2027/2028 Base Residual Auction Report",
+      "publisher": "PJM Interconnection",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2027-2028/2027-2028-bra-report.pdf",
+      "license": "All rights reserved",
+      "redistributed": "no - only the clearing prices",
+      "sha256": "d2280c610b96dcbb24c58dbfc258ac09ae10f59d59da2e713b25890219c5f570",
+      "retrieved": "2026-09-02",
+      "needs": "pdftotext -layout"
+    },
+    {
+      "id": "pjm-bra-2028-2029",
+      "conjunto": "pjm_auctions",
+      "title": "PJM 2028/2029 Base Residual Auction Report",
+      "publisher": "PJM Interconnection",
+      "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+      "license": "All rights reserved",
+      "redistributed": "no - only the clearing prices",
+      "sha256": "10c5b3402ef948655575070b31b6d0b5e07e8089de44a41af024324612de0c03",
+      "retrieved": "2026-09-02",
+      "needs": "pdftotext -layout"
+    },
+    {
+      "id": "mlperf-nvidia-systems",
+      "conjunto": "mlperf_power",
+      "title": "Directory listing of closed/NVIDIA/results in each MLPerf results repository (v4.0 to v6.0)",
+      "publisher": "MLCommons",
+      "url": "https://api.github.com/repos/mlcommons/inference_results_{round}/contents/closed/NVIDIA/results",
+      "license": "Apache-2.0",
+      "redistributed": "directory names only",
+      "sha256": null,
+      "retrieved": "2026-09-04",
+      "drift_expected": true,
+      "drift_note": "A live API listing; no stable digest. Re-listing must still show _MaxQ only in v4.0 and v4.1."
+    }
+  ]
+}
