@@ -22,13 +22,18 @@
 
 ## The article
 
-**Portuguese (pt-BR):** *O Brasil virou destino de data center e não mede o que eles gastam*, to
-be published at [ulissesflores.com/energia](https://ulissesflores.com/energia).
+**Portuguese (pt-BR):** *O Brasil virou destino de data center e não mede o que eles gastam*,
+published on 2026-09-04 at [ulissesflores.com/energia](https://ulissesflores.com/energia).
+
+It is also published in English, Spanish, Italian and Hebrew:
+[/energia-en](https://ulissesflores.com/energia-en) ·
+[/energia-es](https://ulissesflores.com/energia-es) ·
+[/energia-it](https://ulissesflores.com/energia-it) ·
+[/energia-he](https://ulissesflores.com/energia-he).
 
 > [!NOTE]
-> That link is not live yet. This repository went up first on purpose: the article's closing
-> paragraph points readers here, so the URL had to exist before the text could cite it. The link
-> starts resolving when the article is published.
+> This repository went up before the article on purpose: the article's closing paragraph points
+> readers here, so the URL had to exist before the text could cite it.
 
 This repository is the companion to that article. Every figure the article
 calculates itself lives here as running code with a test locking the published
